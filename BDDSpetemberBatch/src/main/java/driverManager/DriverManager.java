@@ -54,6 +54,7 @@ public class DriverManager {
 	 * @return driver with tl
 	 */
 	public static synchronized WebDriver getdriver() {
+		System.out.println("I am adding for demo to git");
 		return tl.get();
 	}
 	
